@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030EE61C1DE1EE2B00EEF8D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030EE61B1DE1EE2B00EEF8D7 /* AppDelegate.swift */; };
+		030EE61E1DE1EE2B00EEF8D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030EE61D1DE1EE2B00EEF8D7 /* ViewController.swift */; };
+		030EE6201DE1EE2B00EEF8D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030EE61F1DE1EE2B00EEF8D7 /* Assets.xcassets */; };
+		030EE6231DE1EE2B00EEF8D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030EE6211DE1EE2B00EEF8D7 /* Main.storyboard */; };
+		030EE62F1DE1F66100EEF8D7 /* end.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 030EE62A1DE1F66100EEF8D7 /* end.mp3 */; };
+		030EE6301DE1F66100EEF8D7 /* pen2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 030EE62B1DE1F66100EEF8D7 /* pen2.mp3 */; };
+		030EE6311DE1F66100EEF8D7 /* apple.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 030EE62C1DE1F66100EEF8D7 /* apple.mp3 */; };
+		030EE6321DE1F66100EEF8D7 /* pineapple.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 030EE62D1DE1F66100EEF8D7 /* pineapple.mp3 */; };
+		030EE6331DE1F66100EEF8D7 /* pen1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 030EE62E1DE1F66100EEF8D7 /* pen1.mp3 */; };
+		030EE6351DE1F80500EEF8D7 /* start.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 030EE6341DE1F80500EEF8D7 /* start.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		030EE6181DE1EE2B00EEF8D7 /* PPAPBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPAPBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		030EE61B1DE1EE2B00EEF8D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		030EE61D1DE1EE2B00EEF8D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		030EE61F1DE1EE2B00EEF8D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		030EE6221DE1EE2B00EEF8D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		030EE6241DE1EE2B00EEF8D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030EE62A1DE1F66100EEF8D7 /* end.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = end.mp3; sourceTree = "<group>"; };
+		030EE62B1DE1F66100EEF8D7 /* pen2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pen2.mp3; sourceTree = "<group>"; };
+		030EE62C1DE1F66100EEF8D7 /* apple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apple.mp3; sourceTree = "<group>"; };
+		030EE62D1DE1F66100EEF8D7 /* pineapple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pineapple.mp3; sourceTree = "<group>"; };
+		030EE62E1DE1F66100EEF8D7 /* pen1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pen1.mp3; sourceTree = "<group>"; };
+		030EE6341DE1F80500EEF8D7 /* start.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = start.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		030EE6151DE1EE2B00EEF8D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030EE60F1DE1EE2B00EEF8D7 = {
+			isa = PBXGroup;
+			children = (
+				030EE61A1DE1EE2B00EEF8D7 /* PPAPBar */,
+				030EE6191DE1EE2B00EEF8D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		030EE6191DE1EE2B00EEF8D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				030EE6181DE1EE2B00EEF8D7 /* PPAPBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		030EE61A1DE1EE2B00EEF8D7 /* PPAPBar */ = {
+			isa = PBXGroup;
+			children = (
+				030EE61B1DE1EE2B00EEF8D7 /* AppDelegate.swift */,
+				030EE61D1DE1EE2B00EEF8D7 /* ViewController.swift */,
+				030EE61F1DE1EE2B00EEF8D7 /* Assets.xcassets */,
+				030EE6211DE1EE2B00EEF8D7 /* Main.storyboard */,
+				030EE6241DE1EE2B00EEF8D7 /* Info.plist */,
+				030EE6341DE1F80500EEF8D7 /* start.mp3 */,
+				030EE62E1DE1F66100EEF8D7 /* pen1.mp3 */,
+				030EE62D1DE1F66100EEF8D7 /* pineapple.mp3 */,
+				030EE62C1DE1F66100EEF8D7 /* apple.mp3 */,
+				030EE62B1DE1F66100EEF8D7 /* pen2.mp3 */,
+				030EE62A1DE1F66100EEF8D7 /* end.mp3 */,
+			);
+			path = PPAPBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		030EE6171DE1EE2B00EEF8D7 /* PPAPBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030EE6271DE1EE2B00EEF8D7 /* Build configuration list for PBXNativeTarget "PPAPBar" */;
+			buildPhases = (
+				030EE6141DE1EE2B00EEF8D7 /* Sources */,
+				030EE6151DE1EE2B00EEF8D7 /* Frameworks */,
+				030EE6161DE1EE2B00EEF8D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PPAPBar;
+			productName = PPAPBar;
+			productReference = 030EE6181DE1EE2B00EEF8D7 /* PPAPBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		030EE6101DE1EE2B00EEF8D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = EnsekiTT;
+				TargetAttributes = {
+					030EE6171DE1EE2B00EEF8D7 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 030EE6131DE1EE2B00EEF8D7 /* Build configuration list for PBXProject "PPAPBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 030EE60F1DE1EE2B00EEF8D7;
+			productRefGroup = 030EE6191DE1EE2B00EEF8D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				030EE6171DE1EE2B00EEF8D7 /* PPAPBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		030EE6161DE1EE2B00EEF8D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030EE62F1DE1F66100EEF8D7 /* end.mp3 in Resources */,
+				030EE6201DE1EE2B00EEF8D7 /* Assets.xcassets in Resources */,
+				030EE6231DE1EE2B00EEF8D7 /* Main.storyboard in Resources */,
+				030EE6331DE1F66100EEF8D7 /* pen1.mp3 in Resources */,
+				030EE6301DE1F66100EEF8D7 /* pen2.mp3 in Resources */,
+				030EE6351DE1F80500EEF8D7 /* start.mp3 in Resources */,
+				030EE6311DE1F66100EEF8D7 /* apple.mp3 in Resources */,
+				030EE6321DE1F66100EEF8D7 /* pineapple.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		030EE6141DE1EE2B00EEF8D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030EE61E1DE1EE2B00EEF8D7 /* ViewController.swift in Sources */,
+				030EE61C1DE1EE2B00EEF8D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		030EE6211DE1EE2B00EEF8D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030EE6221DE1EE2B00EEF8D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		030EE6251DE1EE2B00EEF8D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		030EE6261DE1EE2B00EEF8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		030EE6281DE1EE2B00EEF8D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PPAPBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12.1;
+				PRODUCT_BUNDLE_IDENTIFIER = org.ensekitt.PPAPBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		030EE6291DE1EE2B00EEF8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PPAPBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12.1;
+				PRODUCT_BUNDLE_IDENTIFIER = org.ensekitt.PPAPBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		030EE6131DE1EE2B00EEF8D7 /* Build configuration list for PBXProject "PPAPBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030EE6251DE1EE2B00EEF8D7 /* Debug */,
+				030EE6261DE1EE2B00EEF8D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030EE6271DE1EE2B00EEF8D7 /* Build configuration list for PBXNativeTarget "PPAPBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030EE6281DE1EE2B00EEF8D7 /* Debug */,
+				030EE6291DE1EE2B00EEF8D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 030EE6101DE1EE2B00EEF8D7 /* Project object */;
+}
